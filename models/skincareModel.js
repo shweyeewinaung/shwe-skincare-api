@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const slugify = require("slugify");
 
 const skincareSchema = new mongoose.Schema({
   name: {
@@ -32,7 +33,7 @@ const skincareSchema = new mongoose.Schema({
     type: String,
     required: [true, "A skincare must have a category"],
   },
-  images: [String],
+  images: String,
   ratingsAverage: {
     type: Number,
     default: 4.5,
@@ -40,6 +41,17 @@ const skincareSchema = new mongoose.Schema({
     max: [5, "Rating must be below 5.0"],
     set: (val) => Math.round(val * 10) / 10,
   },
+  createdAt: {
+    type: Date,
+    default: Date.now(),
+    //select: false,
+  },
+});
+
+// DOCUMENT MIDDLEWARE: runs before only in .save() and .create()
+skincareSchema.pre("save", function (next) {
+  this.slug = slugify(this.name, { lower: true });
+  next();
 });
 
 const Skincare = mongoose.model("Skincare", skincareSchema);
