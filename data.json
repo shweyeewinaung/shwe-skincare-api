@@ -1,11 +1,108 @@
-{
-  "images": [],
-  "ratingsAverage": 4.5,
-  "_id": "656761648a01bca5168dbb67",
-  "name": "Vita Genic Jelly Mask White Gloss",
-  "description": "BANOBAGI Vita Genic Jelly Mask White Gloss 30ml Shortcut to Glass Skin Like a Korean girl with banobaki jelly mask, white gloss formula helps restore dry and dull skin to be moisturized and look more radiant. Unveils smooth, silky, shiny, glowing skin like a glass skin.",
-  "price": 49,
-  "currency": "baht",
-  "brand": "BANOBAGI",
-  "category": "mask"
-}
+[
+  {
+    "mostLoved": false,
+    "name": "New Essential Comfort Firming Cream",
+    "description": "Sulwhasoo New Essential Comfort Firming Cream 75ml Moisturizing and firming cream for sensitive skin from Sulwhasoo, while strengthening skin's elasticity. Looks smooth and tight.",
+    "price": 3420,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/sulwhasoo-new-essential-comfort-firming-cream.jpg",
+      "description": "SHLWHASOO brand description"
+    },
+    "brand": "SHLWHASOO",
+    "category": "Moisturizer",
+    "image": "https://shweyeewinaung.com/skincare-images/sulwhasoo-new-essential-comfort-firming-cream.jpg",
+    "slug": "new-essential-comfort-firming-cream"
+  },
+  {
+    "mostLoved": false,
+    "name": "Ample N Peptide Shot",
+    "description": "Coreana Lab Ample N Peptide Shot 100ml, the most popular skincare!!! With peptide skin serum from Koreana Lab, it helps to adjust the skin color regularly. Adds smoothness and glow to the skin. and reduce wrinkles make the skin look younger.",
+    "price": 459,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/coreana-lab-ample-n-peptide-shot.jpg",
+      "description": "COREANA brand description"
+    },
+    "brand": "COREANA",
+    "category": "Serum",
+    "image": "https://shweyeewinaung.com/skincare-images/coreana-lab-ample-n-peptide-shot.jpg",
+    "slug": "ample-n-peptide-shot"
+  },
+  {
+    "mostLoved": false,
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "description": "COSRX Advanced Snail 96 Mucin Power Essence 100ml Korean snail slime essence from Cos RX Enriched with 96% snail mucus extract to protect and replenish moisture within the skin. Rejuvenate the skin to be smooth and bright.",
+    "price": 499,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/cosrx-advanced-snail-96-mucin-power-essence.jpg",
+      "description": "COSRX brand description"
+    },
+    "brand": "COSRX",
+    "category": "Essence",
+    "image": "https://shweyeewinaung.com/skincare-images/cosrx-advanced-snail-96-mucin-power-essence.jpg",
+    "slug": "advanced-snail-96-mucin-power-essence",
+    "loved": 33
+  },
+  {
+    "mostLoved": false,
+    "name": "Pure Cleansing Oil",
+    "description": "Manyo Pure Cleansing Oil 200ml Cleansing Oil from Manyo with the value of 14 types of natural plant oils that can be thoroughly cleaned deeply. and maintain moisture to the face.",
+    "price": 770,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/manyo-pure-cleansing-oil.jpg",
+      "description": "MANYO brand description"
+    },
+    "brand": "MANYO",
+    "category": "Cleasing",
+    "slug": "pure-cleansing-oil",
+    "image": "https://shweyeewinaung.com/skincare-images/manyo-pure-cleansing-oil.jpg"
+  },
+  {
+    "mostLoved": false,
+    "name": "CeraVe Hydrating Cleanser",
+    "description": "CeraVe Hydrating Cleanser 473ml facial and body cleansing product. For normal-dry skin from Cerave, rich in 3 types of ceramides necessary for the skin combined with hyaluronic acid. Clean thoroughly and gently. Doesn't make the skin dry and tight.",
+    "price": 405,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/cerave-hydrating-cleanser.jpg",
+      "description": "CERAVE brand description"
+    },
+    "brand": "CERAVE",
+    "category": "Cleasing",
+    "slug": "cerave-hydrating-cleanser",
+    "image": "https://shweyeewinaung.com/skincare-images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "mostLoved": false,
+    "name": "Watermide Essential Mask",
+    "description": "Mediheal Watermide Essential Mask 24ml Mild facial mask sheet to revitalize dull, dry skin from Mediheal, rich in 3 types of WATER ACTIVE natural extracts, helping to restore dry, dull skin to be clear and replenish dehydrated skin. Come back to moisturize again, absorb quickly, leaving no sticky residue on the face.",
+    "price": 69,
+    "currency": "baht",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/watermide-essential-mask.jpg",
+      "description": "MEDIHEAL brand description"
+    },
+    "brand": "MEDIHEAL",
+    "category": "mask",
+    "slug": "watermide-essential-mask",
+    "image": "https://shweyeewinaung.com/skincare-images/watermide-essential-mask.jpg"
+  },
+  {
+    "mostLoved": false,
+    "name": "Vita Genic Jelly Mask White Gloss",
+    "description": "BANOBAGI Vita Genic Jelly Mask White Gloss 30ml Shortcut to Glass Skin Like a Korean girl with banobaki jelly mask, white gloss formula helps restore dry and dull skin to be moisturized and look more radiant. Unveils smooth, silky, shiny, glowing skin like a glass skin.",
+    "price": 50,
+    "currency": "baht",
+    "brand": "BANOBAGI",
+    "brandInfo": {
+      "logo": "https://shweyeewinaung.com/skincare-images/vita-genic-jelly-mask-white-gloss.jpg",
+      "description": "BANOBAGI brand description"
+    },
+    "category": "mask",
+    "slug": "vita-genic-jelly-mask-white-gloss",
+    "image": "https://shweyeewinaung.com/skincare-images/vita-genic-jelly-mask-white-gloss.jpg"
+  }
+]

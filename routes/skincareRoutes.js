@@ -10,6 +10,7 @@ router
 
 router
   .route("/:id")
+  .get(skincareController.getSkincare)
   .delete(skincareController.deleteSkincare)
   .patch(skincareController.updateSkincare);
 

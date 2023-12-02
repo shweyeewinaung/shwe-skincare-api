@@ -1,5 +1,6 @@
 const express = require("express");
 var morgan = require("morgan");
+var cors = require("cors");
 const globalErrorHandler = require("./controllers/errorController");
 const AppError = require("./utils/appError");
 
@@ -14,6 +15,8 @@ if (process.env.NODE_ENV === "development") {
 
 // Body parser, reading data from body into req.body
 app.use(express.json({ limit: "10kb" }));
+
+app.use(cors());
 
 // Mount the routers
 app.use("/api/v1/skincares", skincareRouter);
